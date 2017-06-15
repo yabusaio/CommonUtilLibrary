@@ -491,7 +491,7 @@
     localImg               : 缩略图预览(仅支持本地图片,并且是JPEG图片格式)
     loadImage              : 请求图片
     getImageDecodeOptions  : 图片解码
-## 图片管理工具类 → [AppImageMgr]()
+## 图片管理工具类 → [AppImageMgr](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/AppImageMgr.java)
     getBitmap                  : 根据drawable id获取Bitmap
     getDrawable                : 根据drawable id获取Drawable
     bitmapToDrawble            : bitmap转drawable
