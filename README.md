@@ -85,10 +85,59 @@
     file: 保存到文件
 ###### 更多使用方法信息点击这里查看：[KLog](http://kaizige.vip/2016/06/13/klog/)
 ## App网络管理 → [AppNetworkMgr](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/AppNetworkMgr.java)
-    getNetworkState   : 获取当前手机连接的网络类型
-    isNetworkConnected: 判断网络是否连接
-    openNetSetting    : 打开网络设置界面
-    is3gConnected     : 检测3G是否连接
+    getNetworkState          : 获取当前手机连接的网络类型
+    isNetworkConnected       : 判断网络是否连接
+    openNetSetting           : 打开网络设置界面
+    is3gConnected            : 检测3G是否连接
+    getNetworkTypeName       : 获取网络类型名称
+    getCurrentNetworkState   : 获取当前网络的状态
+    getCurrentNetworkSubtype : 获取当前网络的具体类型
+    isConnectedByState       : 判断当前网络是否已经连接
+    isConnectingByState      : 判断当前网络是否正在连接
+    isDisconnectedByState    : 判断当前网络是否已经断开
+    isDisconnectingByState   : 判断当前网络是否正在断开
+    isSuspendedByState       : 判断当前网络是否已经暂停
+    isUnknownByState         : 判断当前网络是否处于未知状态中
+    isBluetoothByType        : 判断当前网络的类型是否是蓝牙
+    isDummyByType            : 判断当前网络的类型是否是虚拟网络
+    isEthernetByType         : 判断当前网络的类型是否是ETHERNET
+    isMobileByType           : 判断当前网络的类型是否是移动网络
+    isMobileDunByType        : 判断当前网络的类型是否是MobileDun
+    isMobileHipriByType      : 判断当前网络的类型是否是MobileHipri
+    isMobileMmsByType        : 判断当前网络的类型是否是MobileMms
+    isMobileSuplByType       : 判断当前网络的类型是否是MobileSupl
+    isWifiByType             : 判断当前网络的类型是否是Wifi
+    isWimaxByType            : 判断当前网络的类型是否是Wimax
+    is1XRTTBySubtype         : 判断当前网络的具体类型是否是1XRTT
+    isCDMABySubtype          : 判断当前网络的具体类型是否是CDMA（Either IS95A or IS95B）
+    isEDGEBySubtype          : 判断当前网络的具体类型是否是EDGE
+    isEHRPDBySubtype         :  判断当前网络的具体类型是否是EHRPD
+    isEVDO_0BySubtype        : 判断当前网络的具体类型是否是EVDO_0
+    isEVDO_ABySubtype        : 判断当前网络的具体类型是否是EVDO_A
+    isEVDO_BBySubtype        : 判断当前网络的具体类型是否是EDGE
+    isGPRSBySubtype          : 判断当前网络的具体类型是否是GPRS
+    isHSDPABySubtype         : 判断当前网络的具体类型是否是HSDPA
+    isHSPABySubtype          : 判断当前网络的具体类型是否是HSPA
+    isHSPAPBySubtype         : 判断当前网络的具体类型是否是HSPAP
+    isHSUPABySubtype         : 判断当前网络的具体类型是否是HSUPA
+    isIDENBySubtype          : 判断当前网络的具体类型是否是IDEN
+    isLTEBySubtype           : 判断当前网络的具体类型是否是LTE
+    isUMTSBySubtype          : 判断当前网络的具体类型是否是UMTS
+    isUNKNOWNBySubtype       : 判断当前网络的具体类型是否是UNKNOWN
+    isChinaMobile2G          : 判断当前网络是否是中国移动2G网络
+    isChinaUnicom2G          : 判断当前网络是否是中国联通2G网络
+    isChinaUnicom3G          : 判断当前网络是否是中国联通3G网络
+    isChinaTelecom2G         : 判断当前网络是否是中国电信2G网络
+    isChinaTelecom3G         : 判断当前网络是否是中国电信3G网络
+    getWifiState             : 获取Wifi的状态，需要ACCESS_WIFI_STATE权限
+    isWifiOpen               : 判断Wifi是否打开，需要ACCESS_WIFI_STATE权限
+    setWifi                  : 设置Wifi，需要CHANGE_WIFI_STATE权限
+    isMobileNetworkOpen      : 判断移动网络是否打开，需要ACCESS_NETWORK_STATE权限
+    getIpAddress             : 获取本机IP地址
+    setDataEnabled           : 设置数据流量状态
+    getWifiScanResults       : 获取wifi列表
+    getScanResultsByBSSID    : 过滤扫描结果
+    getWifiConnectionInfo    : 获取wifi连接信息
 ## 手机管理工具类 → [AppPhoneMgr](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/AppPhoneMgr.java)
     getInstance          : 单例对象
     getSDKVersionNumber  : 获取手机系统版本号
