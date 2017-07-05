@@ -1,3 +1,9 @@
+#
+[![Travis](https://img.shields.io/badge/简书-Abraham-blue.svg)](http://www.jianshu.com/u/8a0908d85e0a)
+[![CircleCI](https://img.shields.io/badge/Blog-Abraham-brightgreen.svg)](http://blog.csdn.net/u014727709?viewmode=contents)
+[![TeamCity (simple build status)](https://img.shields.io/badge/Weibo-Abraham%20-lightgrey.svg)](http://weibo.com/p/1005053895373916/home?from=page_100505&mod=TAB&is_all=1#place)
+[![Travis](https://img.shields.io/badge/QQ群-523167548%20-ff69b4.svg)](https://shang.qq.com/wpa/qunwpa?idkey=4898a63b0283bc98cc61daeeb9eb6648a34886cf554a3ec272063ef5d999b012)</br>
+
 # API
 
 ## 银行卡管理 → [BankCheck](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/BankCheck.java)
