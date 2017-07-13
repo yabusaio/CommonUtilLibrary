@@ -1,4 +1,5 @@
 #
+[![Travis branch](https://img.shields.io/badge/Github-Abraham-ff69b4.svg)](https://github.com/AbrahamCaiJin)
 [![Travis](https://img.shields.io/badge/简书-Abraham-blue.svg)](http://www.jianshu.com/u/8a0908d85e0a)
 [![CircleCI](https://img.shields.io/badge/Blog-Abraham-brightgreen.svg)](http://blog.csdn.net/u014727709?viewmode=contents)
 [![TeamCity (simple build status)](https://img.shields.io/badge/Weibo-Abraham%20-lightgrey.svg)](http://weibo.com/p/1005053895373916/home?from=page_100505&mod=TAB&is_all=1#place)
@@ -612,8 +613,42 @@
     decrypt : 3DES 解密
 ## About
     这里把开发中常用的一些工具类做一个整理，主要用到的时候不用再费力的百度或者Google了，大家有需要的可以随时借鉴走，同时也希望这个越来越强大，有什么错误的地方还希望各位不吝指出，让我得以完善，当然，在此声明，这些并不是我一个人，也用了许多前辈们的东西，这里一并感谢，目前还在测试，还没有上传到Jcenter，需要的自己拷贝，测试完成后会给大家贴出引用地址的，持续更新中。对你有用就给一个Start吧！</br></br>
+    [![Travis branch](https://img.shields.io/badge/Github-Abraham-ff69b4.svg)](https://github.com/AbrahamCaiJin)
     [![Travis](https://img.shields.io/badge/简书-Abraham-blue.svg)](http://www.jianshu.com/u/8a0908d85e0a)
     [![CircleCI](https://img.shields.io/badge/Blog-Abraham-brightgreen.svg)](http://blog.csdn.net/u014727709?viewmode=contents)
     [![TeamCity (simple build status)](https://img.shields.io/badge/Weibo-Abraham%20-lightgrey.svg)](http://weibo.com/p/1005053895373916/home?from=page_100505&mod=TAB&is_all=1#place)
     [![Travis](https://img.shields.io/badge/QQ群-523167548%20-ff69b4.svg)](https://shang.qq.com/wpa/qunwpa?idkey=4898a63b0283bc98cc61daeeb9eb6648a34886cf554a3ec272063ef5d999b012)
+## Download
 
+Gradle:
+``` groovy
+compile 'com.abrahamcaijin.commonutil:CommonUtil:1.0.0'
+```
+Maven:
+``` groovy
+<dependency>
+  <groupId>com.abrahamcaijin.commonutil</groupId>
+  <artifactId>CommonUtil</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+ Ivy:
+``` groovy
+<dependency org='com.abrahamcaijin.commonutil' name='CommonUtil' rev='1.0.0'>
+  <artifact name='CommonUtil' ext='pom' ></artifact>
+</dependency>
+```
+## How to use
+
+```
+// init it in the function of onCreate in ur Application
+AppUtils.init(context);
+```
+## Proguard
+
+```
+-keep class com.jingewenku.abrahamcaijin.commonutil.** { *; }
+-keepclassmembers class com.jingewenku.abrahamcaijin.commonutil.** { *; }
+-dontwarn com.jingewenku.abrahamcaijin.commonutil.**
+```
