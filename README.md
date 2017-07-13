@@ -695,9 +695,9 @@
     transformlng : 经度转换
     out_of_china : 判断是否在国内，不在国内不做偏移
 ## 程序崩溃处理类 → [CrashHandlerUtil]()
-    getInstance ： 获取CrashHandler实例 ,单例模式
-    init        ： 初始化
-    setCrashTip ： 设置程序退出时的提示信息
+    getInstance ： 获取CrashHandler实例 ,单例模式
+    init        ： 初始化
+    setCrashTip ： 设置程序退出时的提示信息
 ## html标签管理类 → [HtmlUtils]()
     addHtmlRedFlag : 为给定的字符串添加HTML红色标记，当使用Html.fromHtml()方式显示到TextView 的时候其将是红色的
     keywordMadeRed : 将给定的字符串中所有给定的关键字标红
@@ -726,7 +726,7 @@
     dimBackground         : 调整窗口的透明度  1.0f,0.5f 变暗
     setLandscape          : 设置Activity为横屏
     setPortrait           : 设置Activity为竖屏
-    setActivityFullScreen : 设置全屏,要在setContentView之前调用
+    setActivityFullScreen : 设置全屏,要在setContentView之前调用
 ## pull解析xml管理类 → [XmlParseUtiles]()
     getXmlList   : 解析XML
     getXmlObject : 解析XML
