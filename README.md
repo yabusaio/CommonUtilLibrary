@@ -21,7 +21,7 @@
     contains: 查询某个key是否已经存在
     getAll  : 返回所有的键值对
 ## 提供App数据清理工作的类 → [AppCleanMgr](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/AppCleanMgr.java)
-    cleanInternalCache   ： 清除本应用内部缓存数据
+    cleanInternalCache   ： 清除本应用内部缓存数据
     cleanExternalCache   ： 清除本应用外部缓存数据
     cleanDatabases       ： 清除本应用所有数据库
     cleanSharedPreference： 清除本应用SharedPreference
@@ -42,7 +42,7 @@
     remove          : 除某个key
     clear           : 清除所有数据
 ## App应用退出 → [AppExit2Back](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/AppExit2Back.java)
-    exitApp: 退出App程序应用
+    exitApp: 退出App程序应用
 ## 管理和回收Activity → [AppDavikActivityMgr](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/AppDavikActivityMgr.java)
     getScreenManager      : 单例堆栈集合对象
     removeActivity        : 堆栈中销毁并移除
@@ -93,8 +93,8 @@
 ###### 这里推荐使用凯子哥的日志管理工具,灰常好用，我也集成到了我的项目里面，KLog对超长字符串进行处理，保证全部的字符串都可以打印出来，再也没有了只能打印一部分的问题了，部分使用方法如下
 ## 系统日志输出工具类 → [KLog](https://github.com/AbrahamCaiJin/CommonUtilLibrary/tree/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/klog)
     init: 设置log总开关,debug模式(true:打印日志  false：不打印)
-    a   : assert日志或者打印是否执行到这里等
-    i   : Info日志或者打印是否执行到这里等
+    a   : assert日志或者打印是否执行到这里等
+    i   : Info日志或者打印是否执行到这里等
     d   : Debug日志或者打印是否执行到这里等
     w   : Warn日志或者打印是否执行到这里等
     v   : Verbose日志或者打印是否执行到这里等
@@ -362,7 +362,7 @@
     getBSSID          : 获取指定Wifi的物理地址
     getFrequency      : 获取指定Wifi的频率
     getCapabilities   : 获取指定Wifi的功能
-    getLevel          : 获取指定Wifi的信号强度
+    getLevel          : 获取指定Wifi的信号强度
     getBSSID          : 获取SSID
     getCurrentNetId   : 返回当前连接的网络的ID
     getWifiInfo       : 返回所有信息
@@ -412,7 +412,7 @@
     minutesBetweenTwoDate : 相差多少分钟
     getChineseZodiac      : 获取日期中的生肖
     getZodiac             : 获取日期中的星座
-    getNowDayOffset       : 获取日期
+    getNowDayOffset       : 获取日期
     getTime               : 获取日期
     forward               : 使日期倒一天
     isLeapYear            : 判断平年闰年
@@ -517,7 +517,7 @@
 ## 提供APP应用计算，算法等 -> [AppCalculateMgr](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/AppCalculateMgr.java)
     distance        : 两点间的距离
     pointTotoDegrees: 计算点a(x,y)的角度
-    checkInRound    : 点在圆内
+    checkInRound    : 点在圆内
 ## SpannableString工具类 → [SpannableStringUtils](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/SpannableStringUtils.java)
     Builder.setFlag           : 设置标识
     Builder.setForegroundColor: 设置前景色
@@ -633,12 +633,13 @@
     compareBigDecimal: 比较大小
     adjustDouble     : 获取自己想要的数据格式
 ## WebService网络工具类 → [WebServiceUtils](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/WebServiceUtils.java)
-    callWebService: 请求网络数据
+    callWebService: 请求网络数据
 ## HttpURLConnection网络工具类 → [HttpURLConnectionUtils](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/HttpURLConnectionUtils.java)
     doGetAsyn : 异步的Get请求
     doPostAsyn: 异步的Post请求
     doGet     : Get请求，获得返回数据
     doPost    : 向指定 URL 发送POST方法的请求
+
 ## 字符串判断工具类 → [AppStringUtils](https://github.com/AbrahamCaiJin/CommonUtilLibrary/blob/master/CommonUtil/src/main/java/com/jingewenku/abrahamcaijin/commonutil/AppStringUtils.java)
     isEmpty                  : 判断字符串是否为空
     isNotEmpty               : 判断str null,"","null" 均视为空
@@ -709,6 +710,7 @@
     delShortcut : 删除程序的快捷方式
 ## 单例工具类 → [SingletonUtils]()
     getInstance : 获取单例
+    getInstance : 获取单例
 ## WebView管理类 → [WebViewManager]()
     enableAdaptive                            : 开启自适应功能
     disableAdaptive                           : 禁用自适应功能
@@ -802,24 +804,32 @@
     [![CircleCI](https://img.shields.io/badge/Blog-Abraham-brightgreen.svg)](http://blog.csdn.net/u014727709?viewmode=contents)
     [![TeamCity (simple build status)](https://img.shields.io/badge/Weibo-Abraham%20-lightgrey.svg)](http://weibo.com/p/1005053895373916/home?from=page_100505&mod=TAB&is_all=1#place)
     [![Travis](https://img.shields.io/badge/QQ群-523167548%20-ff69b4.svg)](https://shang.qq.com/wpa/qunwpa?idkey=4898a63b0283bc98cc61daeeb9eb6648a34886cf554a3ec272063ef5d999b012)
+&ensp;&ensp;&ensp;&ensp;这里把开发中常用的一些工具类做一个整理，主要用到的时候不用再费力的百度或者Google了，大家有需要的可以随时借鉴走，同时也希望这个越来越强大，有什么错误的地方还希望各位不吝指出，让我得以完善，当然，在此声明，这些并不是我一个人，也用了许多前辈们的东西，这里一并感谢，目前还在测试，持续更新中。对你有用就给一个Start吧！</br></br>
+#
+[![Travis branch](https://img.shields.io/badge/Github-Abraham-ff69b4.svg)](https://github.com/AbrahamCaiJin)
+[![Travis](https://img.shields.io/badge/简书-Abraham-blue.svg)](http://www.jianshu.com/u/8a0908d85e0a)
+[![CircleCI](https://img.shields.io/badge/Blog-Abraham-brightgreen.svg)](http://blog.csdn.net/u014727709?viewmode=contents)
+[![TeamCity (simple build status)](https://img.shields.io/badge/Weibo-Abraham%20-lightgrey.svg)](http://weibo.com/p/1005053895373916/home?from=page_100505&mod=TAB&is_all=1#place)
+[![Travis](https://img.shields.io/badge/QQ群-523167548%20-ff69b4.svg)](https://shang.qq.com/wpa/qunwpa?idkey=4898a63b0283bc98cc61daeeb9eb6648a34886cf554a3ec272063ef5d999b012)</br>
 ## Download
 
 Gradle:
 ``` groovy
-compile 'com.abrahamcaijin.commonutil:CommonUtil:1.0.0'
+compile 'com.abrahamcaijin.commonutil:CommonUtil:1.0.1'
+
 ```
 Maven:
 ``` groovy
 <dependency>
   <groupId>com.abrahamcaijin.commonutil</groupId>
   <artifactId>CommonUtil</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
  Ivy:
 ``` groovy
-<dependency org='com.abrahamcaijin.commonutil' name='CommonUtil' rev='1.0.0'>
+<dependency org='com.abrahamcaijin.commonutil' name='CommonUtil' rev='1.0.1'>
   <artifact name='CommonUtil' ext='pom' ></artifact>
 </dependency>
 ```
